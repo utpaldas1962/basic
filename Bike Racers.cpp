@@ -25,7 +25,7 @@ vector<pair<int,int> > bikes;
 vector<vector<int> > r2b;
 
 int match (const vector<vector<int> > & graph) {
-    int max_edges = 0;
+    int max_edges = 1;
     stack<vector<int> > que;
     que.push(vector<int>());
     while (!que.empty()) {
